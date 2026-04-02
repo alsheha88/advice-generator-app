@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+	--color-white: hsl(0, 0%, 100%);
+	--color-black: hsl(0, 0%, 0%);
+	--color-blue-200: hsl(193, 38%, 86%);
+	--color-blue-600: hsl(217, 19%, 38%);
+	--color-blue-900: hsl(217, 19%, 24%);
+	--color-blue-950: hsl(218, 23%, 16%);
+	--color-green-300: hsl(150, 100%, 66%);
+
+	--spacing-0: 0px;
+	--spacing-200: 16px;
+	--spacing-300: 24px;
+	--spacing-400: 32px;
+	--spacing-500: 40px;
+}
