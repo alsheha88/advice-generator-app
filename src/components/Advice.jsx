@@ -44,6 +44,8 @@ const Advice = () => {
 			<img src={mobileDivider} className="mt-8 mb-8 block md:hidden" alt="" />
 
 			<button
+				type="button"
+				aria-label="Get new advice"
 				className="flex justify-center items-center w-16 h-16 rounded-full bg-green-300 transition-shadow duration-500 hover:shadow-[0_0_40px_var(--color-green-300)] absolute -bottom-17.5 cursor-pointer"
 				onClick={handleClick}>
 				<img src={diceIcon} alt="" />
