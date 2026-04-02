@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-   base: '/advice-generator/',
+   base: '/advice-generator-app/',
   plugins: [react(), tailwindcss()],
 })
